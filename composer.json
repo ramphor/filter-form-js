@@ -1,0 +1,21 @@
+{
+    "name": "ramphor/filter-form-js",
+    "description": "The flexible Javascript filter form for WordPress themes and plugins",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ramphor Premium",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jankx/template": "dev-master"
+    },
+    "autoload": {
+        "files": [
+            "./filter-form.php"
+        ]
+    }
+}
